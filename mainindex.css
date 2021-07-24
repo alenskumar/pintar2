@@ -1,0 +1,254 @@
+body
+{
+    overflow-x:hidden;
+    background-image:linear-gradient(#FFEFBA,#FFFFFF) ;
+}
+
+.backimg1
+{
+background-image: url("paitingback.jpg");
+
+height: 100%; 
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+#head
+{
+background-image: linear-gradient(to right, red , yellow);
+}
+
+#galltext
+{
+    margin-left: 700px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 30px;
+}
+
+#divgal
+{
+    
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #DA4453;
+    
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   
+  }
+  
+  .topnav a:hover {
+    background-color: #89216B;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color:#ad5389;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Cursive ;
+    font-size: 100px;
+    color: white;
+  }
+
+
+  #pinttxt
+  {
+      float: left;
+      
+  }
+  .font-effect-neon
+  {
+      color: purple;
+  }
+
+
+  div.polaroid {
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    
+    padding: 10px 20px;
+    position: fixed;
+  }
+
+ #nwstxt
+ {
+    font-family: "Audiowide", sans-serif;
+    margin-left: 720px;
+    font-size: 30px;
+ }
+ #painttxt2
+ {
+    font-family: "Audiowide", sans-serif;
+    margin-left: 720px;
+    font-size: 10px;
+ }
+
+ #aboutxt
+ {
+    font-family: "Audiowide", sans-serif;
+    margin-left: 720px;
+    font-size: 30px;
+ }
+
+ #infodiv
+ {
+    width: 48%;
+    height: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+    
+  }
+  #infodiv2
+  {
+    width: 48%;
+    height: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 50%;
+
+  }
+  #buyerimgsc
+  {
+      width: 400px;
+      height: 160px;
+      margin-left:-110px;
+      margin-top: 86px;
+  }
+  #sellerimgsc
+  {
+      margin-top: 46px;
+      margin-left:-50px;
+      width: 200px;
+      position: fixed;
+  }
+  #sellerp
+  {
+    font-family: "Audiowide", sans-serif;
+    margin-top: -50px;
+    font-size: 40px;
+    margin-left: -38px;
+  }
+
+  #buyyerp
+  {
+    font-family: "Audiowide", sans-serif;
+    font-size:40px ;
+    margin-top: -50px;
+    margin-left: -40px;
+  }
+
+  #infodiv
+  {
+      text-align: left;
+      
+  }
+
+  #infodiv2
+  {
+     text-align: left;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  #contacttxt
+  {
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-size:40px ;
+  }
+
+
+
+
+
+
+body 
+a { color: black; text-decoration: none; }
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+.vl {
+  border-left: 3px solid black;
+  height: 200px;
+  margin-left: 770px;
+}
